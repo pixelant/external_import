@@ -18,7 +18,8 @@
 	},
 	"version": "3.0.6",
 	"require": {
-		"typo3/cms-core": ">=7.6.0,<8.0"
+		"typo3/cms-core": ">=7.6.0,<8.99",
+		"cobweb/svconnector": ">=3.1.0"
 	},
 	"replace": {
 		"external_import": "self.version",
