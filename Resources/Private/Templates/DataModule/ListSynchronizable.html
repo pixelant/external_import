@@ -50,7 +50,9 @@
 				<f:for each="{configurations}" as="configuration">
 					<tr>
 						<td>
-							<ex:be.recordIcon table="{configuration.table}" />
+							<f:format.raw>
+								<ex:be.recordIcon table="{configuration.table}" />
+							</f:format.raw>
 						</td>
 						<td>{configuration.tableName} ({configuration.table})</td>
 						<td>[{configuration.index}] {configuration.description}</td>
