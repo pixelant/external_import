@@ -163,4 +163,14 @@ class SchedulerTasksWizard extends AbstractUpdate
         }
         return $recordsToUpdate;
     }
+
+    /**
+     * Returns the global database connection object.
+     *
+     * @return \TYPO3\CMS\Core\Database\DatabaseConnection
+     */
+    protected function getDatabaseConnection()
+    {
+        return $GLOBALS['TYPO3_DB'];
+    }
 }
